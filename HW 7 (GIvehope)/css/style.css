@@ -1,0 +1,180 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+._header{
+
+    background-image:linear-gradient(rgba(32, 29, 29, 0.5), rgba(74, 68, 68, 0.5)), url(../images/givehopeImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+._nav ul {
+list-style: none;
+overflow: hidden;
+display: flex;
+justify-content: space-evenly;
+}
+._nav ul li{
+    float: left;
+    text-decoration-line: none;
+    margin-left: 20px;
+}
+._nav ul li a {
+    float: left;
+    text-decoration-line: none;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    color: white;
+}
+._nav ul li a:hover {
+text-decoration: underline;
+}
+._logo p{
+    color: white;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.center_sentence{
+    margin-top: 80px;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+._play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.fa-play-circle-o{
+    float: left;
+    color: orange;
+}
+._play a  {
+font-size: 20px;
+text-decoration: none;
+}
+._play a span {
+    color: orange;
+    margin-left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+.section1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.leftinfo{
+    width: 35%;
+    background-color: orange;
+    padding: 40px;
+    margin-top: 40px;
+}
+.pmini{
+    font-size: 50px;
+}
+.pmax{
+    font-size: 70px;
+}
+.btn{
+    font-size: 20px;
+    background-color: aliceblue;
+    padding: 10px;
+    border: 0;
+    margin-top: 20px;
+}
+.rightinfo{
+    width: 35%;
+    margin-top: 40px;
+    margin-left: 0;
+}
+.btn1{
+    font-size: 20px;
+    background-color: orange;
+    padding: 10px;
+    border: 0;
+    margin-top: 20px;
+}
+.pmax1{
+    font-size: 55px;
+    line-height: 2;
+
+}
+.pmini1{
+    font-size: 20px;
+
+}
+.pmini2{
+    font-size: 16px;
+}
+.btn2{
+    background-color: orange;
+    color:white;
+    font-size: 20px;
+    background-color: orange;
+    padding: 10px;
+    border: 0;
+    margin-top: 20px;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-top: solid 1px black;
+    margin-top: 60px;
+}
+.fa-lightbulb-o, .fa-money, .fa-user{
+    float: left;
+    color: #f7ca44;
+}
+.section2 a{
+    color: orange;
+    text-decoration: underline;
+    margin-left: 120px;
+    line-height: 4;
+}
+.pmini3{
+    margin-left: 110px;
+    padding: 0px 10px 5px 10px;
+    font-size: 20px;
+}
+.pmax21{
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.pmax22{
+    margin-left: 60px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.pmax23{
+    margin-left: 85px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.card1, .card2, .card3{
+    margin: 10px 20px;
+    padding: 10px;
+    min-height: 200px;
+    width: 30%;
+}
